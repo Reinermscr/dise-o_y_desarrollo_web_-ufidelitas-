@@ -1,0 +1,83 @@
+
+
+body {
+    background-image: url(/img/bg2.jpg);
+    background-size: cover;
+    background-size: 70%;
+    padding: 0px 5px;
+    margin: 0px;
+
+}
+
+header {
+    background-color: #cc5902;
+    height: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #ff930a;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+.img_avatar {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 40px -8px #ffe4a5;
+
+}
+
+.img_search {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.chats {
+    background-color: azure;
+    width: 100%;
+    height: 100%;
+
+}
+
+.box_avatar_chat {
+    padding: 10px 20px;
+}
+
+.box_text_avatar {
+    display: flex;
+    
+}
+
+.box_avatar_chat > .img_avatar {
+    margin: 10px;
+    box-shadow: 0px 0px 15px 5px #ff7b00;
+}
+
+.text_chat {
+
+display: flex;
+flex-direction: column;
+align-content: center;
+
+}
+
+.parrafo {
+    padding: 0px 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 25vw;
+}
+
+h3 {
+    margin: 0px 15px;
+}
+
